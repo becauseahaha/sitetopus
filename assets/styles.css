@@ -58,6 +58,7 @@ footer {
     flex-grow: 1;
     text-align: right;
 }
+.address_phone a,
 .address_email a {
     color: inherit;
     text-decoration: none;
@@ -118,7 +119,7 @@ li::marker {
     height: 27px;
 }
 .photo {
-    flex: 0 0 600px;
+    flex: 0 0 auto;
 }
 .photo_image {
     max-width: 600px;
@@ -134,10 +135,6 @@ li::marker {
         margin-bottom: 50px;
         text-align: center;
     }
-}
-
-@media (min-width: 640px) AND (max-width: 1280px) {
-    
 }
 
 @media (max-width: 1024px) {
